@@ -6,6 +6,7 @@
 }
 html {
   box-sizing: border-box;
+  height: 100%
 }
 *, *:before, *:after {
   margin: 0;
@@ -61,19 +62,28 @@ a.button:hover {
 
 /* LOGIN */
 .login {
-    margin: 0;
+    /*margin: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;*/
+    width: 85%;
+    position: relative;
+    margin-left: 15%;
     overflow: hidden;
 }
 
 /* WRAP */
 .wrap {
-    position: static;
+    /*position: static;
     margin: auto;
     width: 100%;
     height: auto;
+    overflow: hidden;*/
+    width: 85%;
+    position: relative;
+    margin-left: 15%;
     overflow: hidden;
+
 }
 .wrap:after {
   content: "";
@@ -846,8 +856,10 @@ input {
 @media only screen and (min-width: 60em) {
     /* WRAP */
     .wrap {
-        width: 99%;
-        height: 69%;
+        width: 85%;
+        position: relative;
+        margin-left: 15%;
+        overflow: hidden;
     }
     /* CONTENT */
     .content, .content.full {
