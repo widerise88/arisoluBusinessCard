@@ -13,10 +13,11 @@ build/
 .settings
 .springBeans
 .sts4-cache
+bin 
 
 ### IntelliJ IDEA ###
-.idea/
-out/
+.idea
+out
 *.iws
 *.iml
 *.ipr
