@@ -4,4 +4,5 @@ include 'core-module'
 include 'batch-module'
 include 'admin-module'
 include 'web-module'
+include 'front-module'
 

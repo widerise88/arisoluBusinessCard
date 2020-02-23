@@ -1,9 +1,15 @@
-HELP.md
+### BASIC ###
 .gradle
-build/
+build
+**/bin/**
+**/out/**
+HELP.md
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+
+### For Local Developement ###
+application-local.yml
 
 ### STS ###
 .apt_generated
@@ -13,14 +19,14 @@ build/
 .settings
 .springBeans
 .sts4-cache
-bin 
 
 ### IntelliJ IDEA ###
 .idea
-out
 *.iws
 *.iml
 *.ipr
+_DS_Store
+.DS_Store
 
 ### NetBeans ###
 /nbproject/private/
