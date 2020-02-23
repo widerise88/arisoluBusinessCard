@@ -1,0 +1,274 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}1
+
+img {
+    border: 0;
+}
+
+body {
+    font: 12px/1.6 'Poiret One';
+    color: #333;
+}
+
+/* a-style */
+a {
+    outline: 0;
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover,a:active,a:focus{
+	color:#333;
+	text-decoration:none;
+}
+
+
+img {
+    border: 0;
+}
+
+body {
+    font: 12px/1.6 'Poiret One';
+    color: #333;
+}
+
+
+/*header*/
+header {
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background: #fff;
+    top: 0px;
+    left: 0px;
+    transition: all 0.5s;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+header h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.snsSet {
+    width: 90px;
+    height: 47px;
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+    margin-right: -45px;
+}
+
+.snsSet a {
+    float: left;
+}
+
+
+
+
+
+/* header ������ */
+
+header h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.snsSet {
+    width: 90px;
+    height: 47px;
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+    margin-right: -45px;
+}
+
+.snsSet a {
+    float: left;
+}
+
+
+/*nav*/
+
+nav a {
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.6s;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    transform: scale(2.2);
+    opacity: 1;
+    transition: all 0.6s;
+}
+
+nav a:nth-child(1) {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+nav a:nth-child(2) {
+    position: absolute;
+    top: 5px;
+    right: 90px;
+}
+
+nav a:nth-child(3) {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+footer {
+    text-align: right;
+}
+
+
+
+/*media query*/
+@media screen and (min-width:1280px) and (max-width:1599px) {
+    header {
+        position: relative;
+        width: 100%;
+        height: 80px;
+    }
+    nav {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .snsSet {
+        bottom: 20px;
+        right: 80px;
+    }
+    footer {
+        position: relative;
+        width: 100%;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    header {
+        position: relative;
+        width: 100%;
+        height: 80px;
+    }
+    nav {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .snsSet {
+        display: none;
+    }
+    footer {
+        position: relative;
+        width: 100%;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:780px) and (max-width:1023px) {
+    header {
+        position: relative;
+        width: 100%;
+        height: 80px;
+    }
+    nav {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .snsSet {
+        display: none;
+    }
+    footer {
+        position: relative;
+        width: 100%;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:779px) {
+    header {
+        position: relative;
+        width: 100%;
+        height: 80px;
+    }
+    nav {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .snsSet {
+        display: none;
+    }
+    footer {
+        position: relative;
+        width: 100%;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:639px) {
+    header {
+        position: relative;
+        width: 100%;
+        height: 130px;
+    }
+    nav {
+        display: none;
+    }
+    .snsSet {
+        display: none;
+    }
+    footer {
+        position: relative;
+        width: 100%;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width:479px) {
+    header {
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        z-index: 5;
+    }
+    nav {
+        display: none;
+    }
+    footer {
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        z-index: 5;
+    }
+}
