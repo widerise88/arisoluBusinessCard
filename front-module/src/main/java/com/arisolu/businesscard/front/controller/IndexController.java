@@ -1,4 +1,4 @@
-package com.arisolu.businessCard.controller;
+package com.arisolu.businesscard.front.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
