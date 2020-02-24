@@ -1,7 +1,7 @@
 plugins {
     id 'java'
 }
-
+mainClassName = 'BatchApp'
 group 'com.arisolu'
 version '1.0-SNAPSHOT'
 
